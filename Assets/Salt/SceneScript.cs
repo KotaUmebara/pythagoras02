@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Salt_Scene : MonoBehaviour
+public class SceneScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
