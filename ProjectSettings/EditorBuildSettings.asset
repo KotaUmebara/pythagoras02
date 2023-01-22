@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/yamaryo/game.unity
+    guid: 56206cce02ba66d4fa2fa63eb69d8c9e
+  - enabled: 1
     path: Assets/Salt/Salt_scene.unity
     guid: 85b4da9a9fb335c4297e4d8d67c87fe7
+  - enabled: 1
+    path: Assets/Numachi/NumachiScene.unity
+    guid: 39fd2281156de5543943ddfc0e436627
+  - enabled: 1
+    path: Assets/Ume/Upythagoras.unity
+    guid: 497b840d938e524409d45599b43bf836
   m_configObjects: {}
