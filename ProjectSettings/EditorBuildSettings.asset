@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ume/Upythagoras.unity
     guid: 497b840d938e524409d45599b43bf836
+  - enabled: 1
+    path: Assets/tsubuki/T_Scene.unity
+    guid: 28660e3afff3ff148a19139a6b009272
   m_configObjects: {}
