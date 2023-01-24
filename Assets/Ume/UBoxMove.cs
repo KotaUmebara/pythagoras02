@@ -35,7 +35,7 @@ public class UBoxMove : MonoBehaviour
             Destroy(Open);
         }
     }
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         move = true;
     }
