@@ -16,7 +16,7 @@ public class UDestroy : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
             Destroy(Inter);
     }

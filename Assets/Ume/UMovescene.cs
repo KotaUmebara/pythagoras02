@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UMovescene : MonoBehaviour
 {
@@ -14,5 +15,9 @@ public class UMovescene : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        SceneManager.LoadScene("T_scene");
     }
 }
