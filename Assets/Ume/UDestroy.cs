@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class UDestroy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject Inter;
     void Start()
     {
-        
+        Inter = GameObject.Find("Inter");
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+            Destroy(Inter);
     }
 }
