@@ -18,6 +18,6 @@ public class UMovescene : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene("T_scene");
+        SceneManager.LoadScene("Salt_scene");
     }
 }
